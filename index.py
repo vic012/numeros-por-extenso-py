@@ -1,5 +1,5 @@
 #Declarando os números por extenso em tuplas
-um_digito = ('Zero', 'Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove') # 0 - 9
+um_digito = ('', 'Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove') # 0 - 9
 dois_digitos = ('Dez', 'Onze', 'Doze', 'Treze', 'Quatorze', 'Quinze', 'Dezesseis', 'Dezessete', 'Dezoito', 'Dezenove') # 10 - 19
 dezenas = ('Vinte', 'Trinta', 'Quarenta', 'Cinquenta', 'Sessenta', 'setenta', 'Oitenta', 'Noventa')
 centenas = ('Cento', 'Duzentos', 'Trezentos', 'Quatrocentos', 'Quinhentos', 'Seiscentos', 'Setecentos', 'Oitocentos', 'Novecentos')
@@ -9,7 +9,7 @@ sufixos = ('Mil', 'Milhão', 'Bilhão')
 def conversao(numero):
 	#Se o número digitado for 0
 	if numero == '0':
-		#Nesse ponto a função será executada até aqui e retornará o 'Zero'
+		# Nesse ponto a função será executada até aqui e retornará o 'Zero'
 		return um_digito[0]
 
 	#Se de alguma forma o numero (str) tiver mais de 3 caracetere
